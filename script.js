@@ -1,6 +1,6 @@
 let counter=0;
 const counterElement=document.getElementById('counter');
-const clk=document.getElementById('clk');
+const incrementBtn=document.getElementById('incrementBtn');
 clk.addEventListener('click',()=>{
 	alert(`Un-incremented value: ${counter}`);
 	counter++;
